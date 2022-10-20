@@ -65,7 +65,7 @@ class State:
 
   @staticmethod
   def three():
-    return State.one().successor()
+    return State.two().successor()
 
   @staticmethod
   def four():
